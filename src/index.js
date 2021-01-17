@@ -19,7 +19,6 @@ mongoose.connect('mongodb://localhost:27017/stack-bucket-mern', {
     })
 
 
-
 app.use(express.static(path.join(__dirname, '../', 'public')))
 app.use(cors())
 app.use(morgan('dev'))
